@@ -11,10 +11,13 @@ int main()
  	y=7;
  	//operador ternario
  	z=(x < y) ? x:y; // Carga menor entre x e y en z
- 	printf("El menor entre %d y %d es %d\n",x,y,z); 
+//  z=(8 < 7) ? x:y;
+
+ 	//printf("El menor entre %d y %d es %d\n",x,y,z); 
  	// Muestra resultado de la expresión condicional
- 	t=(x % 2 == 0) ? 'p':'i'; // Carga 'p' en t, sino carga 'i'
- 	printf("%d es %s\n",x,(t=='p') ? "par":"impar"); 
+ 	//t=(x % 2 == 0) ? 'p':'i'; // Carga 'p' en t, sino carga 'i'
+ 	//printf("%d es %s\n",x,(t=='p') ? "par":"impar"); 
+ 	printf("%d es %s\n",x,(x % 2 == 0) ? "par":"impar"); 
  	// De acuerdo a que t sea 'p o 'i', muestra "par" o "impar"
  	x=10; // Carga x para analizar si es par o impar
  	printf("%d es %s\n",x,(x % 2 == 0) ? "par":"impar"); 

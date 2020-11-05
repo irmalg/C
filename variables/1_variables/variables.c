@@ -5,12 +5,12 @@ int main()
 	short int entero_corto=32;
 	long int entero_largo=32L;
 	unsigned int entero_sin_signo=32U;
-	float simple=12.8F;
+	float simple=12.8;
 	double doble=12.8;
 	long double doble_extendido=12.8L;
 	float notacion_cientifica=4.5e-4;
 	char caracter='A';
-	char cadena[10]="Lenguaje C";
+	char cadena[10]="LenguajeC";
 	
 	printf("int:%d\n", entero); 
 	printf("Short int:%hd\n", entero_corto); 

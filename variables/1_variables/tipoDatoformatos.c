@@ -2,10 +2,9 @@
 
 int main(){
 	// Caracteres
-	char c = 'A';
+	char c = 'B';
 	printf("Caracter: %c \n", c);
 	printf("Caracter en decimal: %d \n", c);
-	printf("Caracter en decimal: %i \n", c);
 	printf("Caracter en octal: %o \n", c);
 	printf("Caracter en hexadecimal: %x\n", c);
 	

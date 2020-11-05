@@ -1,6 +1,11 @@
 #include <stdio.h> 
 #include <stdlib.h>
 
+/*
+|| OR
+&& AND
+! NOT
+*/
 int main()
 { // Inicio
 

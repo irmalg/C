@@ -4,9 +4,9 @@
 
 int main()
 {
-printf("Tama√±o de datos b√°sicos\n");
+printf("TamaÒo de datos b·sicos\n");
 printf("=======================\n");
-printf("Tipo\tTama√±o en bytes\n");
+printf("Tipo\tTamaÒo en bytes\n");
 printf("====\t===============\n");
 printf("char\t%ld\n",sizeof(char));
 printf("string\t%ld\n",sizeof(char[50]));

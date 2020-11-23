@@ -1,26 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
-//#include <conio.h>
-//#include <curses.h>
 
 int main(void)
 {
-  int x,y,z,cont;
-
-  x=0;
-  y=1;
- 
- 
-  for (cont=1;cont<=5;cont++)
-  {
-      
-      x=cont+y;
-      printf("%d\n",x);
-      y++;
-      /*x=y;
-      y=z;*/
+  system("clear"); //Limpiar pantalla
+  int cont;//Declaración de variable
+  
+  for(cont=1;cont<10;cont++){
+  	if(cont % 2==1){
+  		printf("\n");
+	  }
+	printf("[%d]",cont);//10
   }
-  printf("Valor final: %d\n",cont);
+  printf("Valor final: %d\n",cont);//11
   getchar();
   return 0;
 }

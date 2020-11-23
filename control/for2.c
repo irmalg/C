@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-//#include <conio.h>
-//#include <curses.h>
 
 int main(void)
 {
@@ -9,7 +7,7 @@ int main(void)
  
   for (x=0;x<=5;x++){
   	for (y=0;y<=5;y++){
-     		 printf("[%d,%d]",x,y);
+     		 printf("[%d,%d]\t",x,y);
   	}
      	printf("\n");
   }

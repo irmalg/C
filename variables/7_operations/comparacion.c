@@ -7,11 +7,11 @@ int main()
 	int x,y,z; // A ser usadas en la condición y resultado de la expresión
 	char t; // Guarda resultado de expresión
 	//system("clear");
- 	x=9; 
+ 	x=8; 
  	y=7;
  	//operador ternario
- 	z=(x < y) ? x:y; // Carga menor entre x e y en z
-//  z=(8 < 7) ? x:y;
+ 	//z=(x < y) ? x:y; // Carga menor entre x e y en z
+//  z=(9 < 7) ? x:y;
 
  	//printf("El menor entre %d y %d es %d\n",x,y,z); 
  	// Muestra resultado de la expresión condicional

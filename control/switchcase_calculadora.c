@@ -7,7 +7,8 @@ int main()
 	//Declarando variables
 	int opcion;
 	float n1, n2, resultado;
-	
+	do{	
+	printf("\n-------------------------\n");
 	printf("Elige una opcion:\n");
 	printf("\t 1.- Suma\n");
 	printf("\t 2.- Resta\n");
@@ -32,7 +33,7 @@ int main()
 		scanf("%f", &n2);
 	}
 
-	//Estructura de control de selecciÃ³n multiple
+	//Estructura de control de selección múltiple
 	switch(opcion)
 	{
 	case 1:
@@ -70,8 +71,12 @@ int main()
 			printf("%f", resultado);
 		}
 		break;
+	case 7: 		
+		printf("Vuelva pronto");
+		break;
 	default:
-		printf("Salir");
-		exit(0);
-	}	//Sale break
+		printf("No esta puesta correctamente la opcion\n");
+	}
+	}while(opcion != 7);
+	return 0;
 } 

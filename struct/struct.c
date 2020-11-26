@@ -9,12 +9,11 @@ struct biblioteca { // Crea la estructura del registro
 
 //struct biblioteca libro = {0}; // Define libro con el tipo de dato elibro
 
-int main()
-{ // Inicio
- system("clear"); // Limpia pantalla
+int main(){ // Inicio
+ //system("clear"); // Limpia pantalla
  // Ingresa datos del registro
-//printf("Ingrese el codigo:");
-// scanf("%d",&libro.codigo);
+ printf("Ingrese el codigo:");
+ scanf("%d",&libro.codigo);
  printf("Ingrese el título del libro:");
  scanf("%s",libro.titulo);
  printf("Ingrese el nombre del autor:");

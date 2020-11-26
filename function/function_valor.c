@@ -4,18 +4,18 @@ void sumar_valor(int numero); /* declaración de la función */
 
 int main(void)
 {
-	int numero = 57; // Asignación de valor
-	sumar_valor(numero); /* enviamos numero a la función */
-	printf("Valor de numero dentro de main() es: %d\n", numero);
+	int num = 57; // Asignación de valor
+	sumar_valor(num); /* enviamos numero a la función */
+	printf("Valor de numero dentro de main() es: %d\n", num);
 	/* podemos notar que el valor de numero se modifica
 	 * sólo dentro de la función sumar_valor pero en la principal
 	 */
 	return 0;
 }
 
-void sumar_valor(void) //57
+void sumar_valor(int numero) //57 num copia su valor a numero, num = 57 y numero = 57
 {
 	numero++; /* 58*/
-	printf("Valor de numero dentro sumar_valor() es: %d\n", numero);
+	printf("Valor de numero dentro sumar_valor() es: %d\n", numero); //58
 	return;
 }

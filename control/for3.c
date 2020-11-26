@@ -5,10 +5,10 @@
 
 int main()
 {
-  int x,y,z,cont;
+  int x,y,cont;
   for (x=0;x<=5;x++){ //Recorrer columnas
-  	for (y=0;y<=5;y++){ //Recorrer filas
-     		 printf("[%d]\t",x+y); //0+0
+  	for (y=0;y<=2;y++){ //Recorrer filas
+     		 printf("[%d]\t",x+y); //0 + 0
   	}
      	printf("\n");
   }

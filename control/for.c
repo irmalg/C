@@ -3,16 +3,14 @@
 
 int main(void)
 {
-  system("clear"); //Limpiar pantalla
+  system("cls"); //Limpiar pantalla
   int cont;//Declaración de variable
   
-  for(cont=1;cont<10;cont++){
-  	if(cont % 2==1){
-  		printf("\n");
-	  }
-	printf("[%d]",cont);//10
+  for(cont=0;cont<=1000;){
+  	printf("[%d]",cont);
+  	cont = cont+50;
   }
-  printf("Valor final: %d\n",cont);//11
+  printf("\n\nValor final de \'cont\': %d\n",cont);//11
   getchar();
   return 0;
 }

@@ -1,6 +1,27 @@
 #include <stdio.h>
 #include <math.h>
 #include <windows.h>
+
+int suma(int entero1, int entero2){10,5 //Declarando e implentacion de funcion
+	int resultado = 0;
+	resultado = enterio1 + entero2; //10+5
+	return resultado;
+}
+int resta(int entero1, int entero2){10,5 //Declarando e implentacion de funcion
+	int resultado = 0;
+	resultado = enterio1 + entero2; //10+5
+	return resultado;
+}
+int multiplicacion(int entero1, int entero2){10,5 //Declarando e implentacion de funcion
+	int resultado = 0;
+	resultado = enterio1 + entero2; //10+5
+	return resultado;
+}
+int division(int entero1, int entero2){10,5 //Declarando e implentacion de funcion
+	int resultado = 0;
+	resultado = enterio1 + entero2; //10+5
+	return resultado;
+}
 int main()
 {
 	//Declarando variables
@@ -40,7 +61,8 @@ int main()
 	switch(opcion)
 	{
 	case 1:
-		resultado = n1 + n2;
+		resultado = suma(n1,n2); //n1=10, n2=5
+		//resultado = n1 + n2;
 		printf("%f", resultado);
 		break;
 	case 2:
@@ -58,12 +80,12 @@ int main()
 		}
 		break;
 	case 4: 
-		resultado = n1 * n2;
-		printf("%f", resultado);
+		//resultado = n1 * n2; >mandar a la funcion
+		printf("%f", multiplica(n1,n2));
 		break;
 	case 5: 		
-		resultado = pow(n1,n2);
-		printf("%f", resultado);
+		//resultado = pow(n1,n2); >mandarla dentro de la funcion
+		printf("%f", potencia (n1,n2));
 		break;
 	case 6: 
 		if(n1<0){

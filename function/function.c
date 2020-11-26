@@ -1,16 +1,13 @@
 #include <stdio.h>
 
-void saludo(void) //Declarando e Implementando la funci贸n
-{
+void saludo(void){ //Declarando e Implementando la funci髇
  	printf("Hola Mundo\n"); /* imprime la cadena */
-	return; /* sale de la funci贸n */
+	return; /* sale de la funci髇 */
 }
  
-int main(void) /* Funci贸n principal del programa */
-{
-	saludo(); /* llamada a la funci贸n saludo*/
-	saludo(); /* llamada a la funci贸n saludo*/
-	saludo(); /* llamada a la funci贸n saludo*/
-	saludo(); /* llamada a la funci贸n saludo*/
-	return 0; /* sale del programa con c贸digo 0 (correcto) */
+int main(void){ /* Funci髇 principal del programa */
+	saludo(); /* llamada a la funci髇 saludo*/
+	saludo(); 
+	saludo(); 
+	return 0; /* sale del programa con c骴igo 0 (correcto) */
 }

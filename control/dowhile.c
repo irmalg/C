@@ -4,8 +4,7 @@ int main()
 {
 
    int n, a;
-   a = 0;
-   
+   a = 0; 
    do
    {
      printf( "Introduzca un numero entero: " );
